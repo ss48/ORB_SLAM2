@@ -2,3 +2,5 @@ sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
 ./build.sh the ORB-slam
 
 https://github.com/raulmur/ORB_SLAM2/issues/68
+
+https://www.youtube.com/watch?v=StHfHCPrHOw
