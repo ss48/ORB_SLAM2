@@ -1,3 +1,8 @@
+https://medium.com/@j.zijlmans/orb-slam-2052515bd84c
+
+
+
+
 sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
 ./build.sh the ORB-slam
 
