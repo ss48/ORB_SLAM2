@@ -6,4 +6,6 @@ https://github.com/raulmur/ORB_SLAM2/issues/68
 https://www.youtube.com/watch?v=StHfHCPrHOw
 
 export ROS_MASTER_URI=http://192.168.1.66:11311
+echo 'export ROS_MASTER_URI=http://192.168.1.66:11311'
 
+rosrun ORB_SLAM ORB_SLAM Data/ORBvoc.txt Data/settings.yaml
