@@ -24,3 +24,7 @@ export ROS_MASTER_URI=http://192.168.1.66:11311>>~/.bashrc
 export ROS_IP=192.168.1.66>>~/.bashrc
 
 printenv | grep ROS
+
+
+
+source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
