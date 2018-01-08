@@ -28,3 +28,4 @@ printenv | grep ROS
 
 
 source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
+source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
