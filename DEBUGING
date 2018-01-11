@@ -24,6 +24,7 @@ export ROS_MASTER_URI=http://192.168.1.66:11311>>~/.bashrc
 export ROS_IP=192.168.1.66>>~/.bashrc
 
 printenv | grep ROS
+ource ~/catkin_ws/devel/setup.bash>>~/.bashrc
 
 
 
