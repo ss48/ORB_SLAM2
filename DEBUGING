@@ -29,3 +29,9 @@ printenv | grep ROS
 
 source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
 source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
+
+
+
+sudo apt-get install ros-indigo-geographic-msgs
+
+You can also try rosdep install robot_localization
