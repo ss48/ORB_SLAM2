@@ -27,6 +27,7 @@ printenv | grep ROS
 ource ~/catkin_ws/devel/setup.bash>>~/.bashrc
 
 
+./Examples/Monocular/mono_euroc Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /home/research2/Desktop/package/maV0/cam0/data Examples/Monocular/EuRoC_TimeStamps/MH02.txt
 
 source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
 source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
