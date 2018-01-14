@@ -64,3 +64,6 @@ http://wiki.ros.org/asctec_hl_interface/Tutorials/hlp%20position%20control
 
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`/ethzasl_sensor_fusion
 http://wiki.ros.org/ethzasl_sensor_fusion/Tutorials/sfly_framework
+
+
+http://www.hyperbolicthoughts.co.uk/2015/05/lsd-slam-install.html
