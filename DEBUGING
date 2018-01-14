@@ -40,3 +40,17 @@ source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
 sudo apt-get install ros-indigo-geographic-msgs
 
 You can also try rosdep install robot_localization
+
+
+
+
+
+
+
+
+
+
+http://wiki.ros.org/ethzasl_sensor_fusion
+https://github.com/ethz-asl/mav_control_rw
+http://wiki.ros.org/ethzasl_sensor_fusion
+
