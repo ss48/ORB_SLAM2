@@ -53,4 +53,5 @@ You can also try rosdep install robot_localization
 http://wiki.ros.org/ethzasl_sensor_fusion
 https://github.com/ethz-asl/mav_control_rw
 http://wiki.ros.org/ethzasl_sensor_fusion
+http://wiki.ros.org/catkin/Tutorials/using_a_workspace
 
