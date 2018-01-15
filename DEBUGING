@@ -70,3 +70,5 @@ http://www.hyperbolicthoughts.co.uk/2015/05/lsd-slam-install.html
 
 
 https://github.com/tum-vision/lsd_slam/issues/236
+
+echo "source ~/rosbuild_ws/setup.bash" >> ~/.bashrc
