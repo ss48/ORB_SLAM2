@@ -77,3 +77,4 @@ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 
 source ~/rosbuild_ws/package_dir/lsd_slam/lsd_slam_viewer/build/devel/setup.bash
 source ~/rosbuild_ws/package_dir/lsd_slam/lsd_slam_core
+http://www.clearpathrobotics.com/assets/guides/ros/Drive%20a%20Grizzly.html
