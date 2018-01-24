@@ -1,7 +1,7 @@
 https://medium.com/@j.zijlmans/orb-slam-2052515bd84c
 DSO mapping:
 http://blog.csdn.net/TaTianZhuanShi/article/details/54412392
-
+/home/research2/catkin_ws/src/dso/build/bin/dso_dataset files=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/images.zip calib=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/camera.txt gamma=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/pcalib.txt vignette=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/vignette.png preset=0 mode=0
 
 sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
 ./build.sh the ORB-slam
