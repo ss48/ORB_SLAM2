@@ -13,6 +13,8 @@ export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/catkin_ws/src/dso >>
 cd catkin_ws/src
 echo ~/catkin_ws/devel/setup.bash ~/.bashrc
 
+export DSO_PATH=~/src/dso
+
 
 sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
 ./build.sh the ORB-slam
