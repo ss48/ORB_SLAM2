@@ -1,6 +1,6 @@
 https://medium.com/@j.zijlmans/orb-slam-2052515bd84c
-
-
+DSO mapping:
+http://blog.csdn.net/TaTianZhuanShi/article/details/54412392
 
 
 sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
@@ -10,43 +10,30 @@ https://github.com/raulmur/ORB_SLAM2/issues/68
 
 https://www.youtube.com/watch?v=StHfHCPrHOw
 
-export ROS_MASTER_URI=http://192.168.1.66:11311
-echo 'export ROS_MASTER_URI=http://192.168.1.66:11311'
-
-rosrun ORB_SLAM ORB_SLAM Data/ORBvoc.txt Data/settings.yaml
+!!!!!!!!!!!!!!export ROS_MASTER_URI=http://192.168.1.66:11311
+!!!!!!!!!!!!!!!!!echo 'export ROS_MASTER_URI=http://192.168.1.66:11311'
+!!!!!!!!!!!!!!!!!!rosrun ORB_SLAM ORB_SLAM Data/ORBvoc.txt Data/settings.yaml
 rosrun ORB_SLAM2 Mono /home/research2/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/research2/ORB_SLAM2/Examples/Monocular/TUM1.yaml
 
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/ORB_SLAM2/Examples/ROS >> ~/.bashrc
 
 export ROS_MASTER_URI=http://research2-Alienware-14:40110>>~/.bashrc
 
-export ROS_MASTER_URI=http://192.168.1.66:11311>>~/.bashrc
-export ROS_IP=192.168.1.66>>~/.bashrc
+!!!!!!!!!!export ROS_MASTER_URI=http://192.168.1.66:11311>>~/.bashrc
+!!!!!!!!!!!!!!!export ROS_IP=192.168.1.66>>~/.bashrc
 
 printenv | grep ROS
-ource ~/catkin_ws/devel/setup.bash>>~/.bashrc
+source ~/catkin_ws/devel/setup.bash>>~/.bashrc
 
 
 ./Examples/Monocular/mono_euroc Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /home/research2/Desktop/package/dataset_2/sequences/04
-
-
 ./Examples/Monocular/mono_euroc Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /home/research2/Desktop/package/maV0/cam0/data Examples/Monocular/EuRoC_TimeStamps/MH02.txt
 
 source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
-source ~/ORB_SLAM2/Examples/ROS/ORB_SLAM2/build/devel/setup.bash
-
-
 
 sudo apt-get install ros-indigo-geographic-msgs
 
 You can also try rosdep install robot_localization
-
-
-
-
-
-
-
 
 
 
