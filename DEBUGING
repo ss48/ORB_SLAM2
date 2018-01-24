@@ -3,6 +3,16 @@ DSO mapping:
 http://blog.csdn.net/TaTianZhuanShi/article/details/54412392
 /home/research2/catkin_ws/src/dso/build/bin/dso_dataset files=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/images.zip calib=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/camera.txt gamma=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/pcalib.txt vignette=/home/research2/catkin_ws/src/dso/build/bin/sequence_11/vignette.png preset=0 mode=0
 
+export DSO_PATH=~/catkin_ws/src/dso
+
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/ORB_SLAM2/Examples/ROS >> ~/.bashrc
+
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/catkin_ws/src >> ~/.bashrc
+
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/catkin_ws/src/dso/bin >> ~/.bashrc
+
+
+
 sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
 ./build.sh the ORB-slam
 
