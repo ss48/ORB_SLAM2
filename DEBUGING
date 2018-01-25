@@ -153,3 +153,26 @@ make
   
 # インストール
 make install
+++++++++++++++++++++++++++++++++++++++++++++++++
+ How to install ceres solver in Ubuntu
+sudo apt-get install libatlas-base-dev libeigen3-dev python-gflags
+
+Download the latest glog
+
+cd glog-0.3.3 
+./configure --with-gflags=/usr/local/ 
+make 
+sudo make install
+
+Download the latest stable ceres solver
+
+cd ceres-solver-1.9.0
+mkdir build 
+cd build 
+cmake ..
+make
+sudo make install 
+
+Check to see whether it is running:
+
+bin/simple_bundle_adjuster ../ceres-solver-1.9.0/data/problem-16-22106-pre.txt
