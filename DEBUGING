@@ -128,3 +128,28 @@ There is an example roslaunch file in the occam_node:
 roslaunch viewStichedImage.launch
 
 You should see the stiched output stream from one camera rig
+
+
+作業ディレクトリの作成
+mkdir -p /usr/local/src/google-glog
+  
+# 作業ディレクトリに移動
+cd /usr/local/src/google-glog
+  
+# google-glogのダウンロード
+wget https://google-glog.googlecode.com/files/glog-0.3.3.tar.gz
+  
+# ダウンロードしたデータを解凍
+tar xvzf glog-0.3.3.tar.gz
+  
+# 解凍先へ移動
+cd glog-0.3.3
+ 
+# configureスクリプトを起動
+./configure
+  
+# コンパイル
+make
+  
+# インストール
+make install
