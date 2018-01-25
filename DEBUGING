@@ -1,3 +1,7 @@
+v4l2-ctl --list-formats-ext
+rosrun usb_cam usb_cam_node
+
+
 https://github.com/HKUST-Aerial-Robotics/VINS-Mono
 
 
