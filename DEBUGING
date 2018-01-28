@@ -123,8 +123,9 @@ Adapt the absolute path to the sdk in occam_node/CMakeLists.txt on line 20:
 set(INDIGOSDK_PATH "/<absolute/path/to/the/repo>/occam/occam_sdk")
 
 Link the package to your src folder in the catkin workspace:
-
+Link:
 ln -sf <path/to/occam_node> <path/to/catkin_ws/src>
+ln -sf ~/ORB_SLAM2/src/robot_odom ~/catkin_ws/src/ORB_SLAM2
 
 Run catkin_make or catkin build in your catkin_ws
 
