@@ -37,7 +37,7 @@ rosrun ORB_SLAM2 Mono /home/research2/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/rese
 
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/ORB_SLAM2/Examples/ROS >> ~/.bashrc
 
-export ROS_MASTER_URI=http://research2-Alienware-14:40110>>~/.bashrc
+export ROS_MASTER_URI=http://research2-Alienware-14:11311>>~/.bashrc
 
 !!!!!!!!!!export ROS_MASTER_URI=http://192.168.1.66:11311>>~/.bashrc
 !!!!!!!!!!!!!!!export ROS_IP=192.168.1.66>>~/.bashrc
