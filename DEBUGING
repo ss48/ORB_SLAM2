@@ -15,7 +15,7 @@ export DSO_PATH=~/catkin_ws/src/dso
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/ORB_SLAM2/Examples/ROS >> ~/.bashrc
 
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/catkin_ws/src >> ~/.bashrc
-
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/ORB_SLAM2/src/robot_odom >> ~/.bashrc
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/research2/catkin_ws/src/dso >> ~/.bashrc
 cd catkin_ws/src
 echo ~/catkin_ws/devel/setup.bash ~/.bashrc
