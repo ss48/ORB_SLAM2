@@ -1,3 +1,7 @@
+sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
+
+
+
 v4l2-ctl --list-formats-ext
 rosrun usb_cam usb_cam_node
 
