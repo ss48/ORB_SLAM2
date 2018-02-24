@@ -5,6 +5,7 @@ https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
 sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
 https://github.com/tu-darmstadt-ros-pkg/hector_gazebo
 https://github.com/tu-darmstadt-ros-pkg/hector_localization
+https://github.com/tu-darmstadt-ros-pkg/hector_models.git
 
 v4l2-ctl --list-formats-ext
 rosrun usb_cam usb_cam_node
